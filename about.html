@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Site · About</title>
+    <meta name="description" content="About and services page">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      :root { --brand-gradient: linear-gradient(135deg, #0d6efd, #6610f2); }
+      .page-header { background: var(--brand-gradient); color: #fff; }
+      .team-avatar { width: 72px; height: 72px; object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <header class="mb-4">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="index.html">BrandName</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Header -->
+      <section class="page-header py-5">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+              <h1 class="display-6 fw-bold mb-2">About our studio</h1>
+              <p class="lead mb-0">We craft thoughtful, responsive interfaces powered by Bootstrap and modern web standards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro / Values -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-3">What drives us</h2>
+              <p class="text-secondary">We believe great products are built with accessibility, performance, and maintainability in mind. Using Bootstrap utilities helps us stay consistent and ship quickly.</p>
+              <ul class="list-unstyled">
+                <li class="mb-2">✅ Accessible and semantic HTML5</li>
+                <li class="mb-2">✅ Utility-first spacing and layout</li>
+                <li class="mb-2">✅ Design systems and reusable patterns</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
+                <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=1200&auto=format&fit=crop" alt="Workspace" class="w-100 h-100" style="object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services / Cards -->
+      <section class="py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Our services</h2>
+            <p class="text-secondary mb-0">Flexible offerings tailored to your goals.</p>
+          </div>
+          <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">UI/UX Design</h5>
+                  <p class="card-text text-secondary">Wireframes to polished interfaces, informed by research and best practices.</p>
+                </div>
+                <div class="card-footer bg-white border-top-0">
+                  <a href="#" class="btn btn-sm btn-outline-primary">Learn more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend Engineering</h5>
+                  <p class="card-text text-secondary">Responsive, accessible builds using Bootstrap, modern JavaScript, and best-in-class tooling.</p>
+                </div>
+                <div class="card-footer bg-white border-top-0">
+                  <a href="#" class="btn btn-sm btn-outline-primary">Learn more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h5 class="card-title">Design Systems</h5>
+                  <p class="card-text text-secondary">Scalable tokens, components, and documentation to unify your product suite.</p>
+                </div>
+                <div class="card-footer bg-white border-top-0">
+                  <a href="#" class="btn btn-sm btn-outline-primary">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row justify-content-between align-items-end mb-4 g-3">
+            <div class="col-12 col-md">
+              <h2 class="fw-bold mb-1">Meet the team</h2>
+              <p class="text-secondary mb-0">Small, senior, and hands-on.</p>
+            </div>
+            <div class="col-auto">
+              <a href="contact.html" class="btn btn-primary">Work with us</a>
+            </div>
+          </div>
+          <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
+            <div class="col">
+              <div class="d-flex align-items-center gap-3 p-3 bg-white border rounded-3 h-100">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" alt="Member" class="rounded-circle team-avatar">
+                <div>
+                  <h6 class="mb-1">Sri</h6>
+                  <small class="text-secondary">Product Designer</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex align-items-center gap-3 p-3 bg-white border rounded-3 h-100">
+                <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?q=80&w=400&auto=format&fit=crop" alt="Member" class="rounded-circle team-avatar">
+                <div>
+                  <h6 class="mb-1">Rao</h6>
+                  <small class="text-secondary">Frontend Engineer</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex align-items-center gap-3 p-3 bg-white border rounded-3 h-100">
+                <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=400&auto=format&fit=crop" alt="Member" class="rounded-circle team-avatar">
+                <div>
+                  <h6 class="mb-1">Raju</h6>
+                  <small class="text-secondary">Design Systems</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex align-items-center gap-3 p-3 bg-white border rounded-3 h-100">
+                <img src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a?q=80&w=400&auto=format&fit=crop" alt="Member" class="rounded-circle team-avatar">
+                <div>
+                  <h6 class="mb-1">Vivid</h6>
+                  <small class="text-secondary">Accessibility Lead</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-light mt-auto">
+      <div class="container py-4">
+        <div class="row g-4 align-items-center">
+          <div class="col-md">
+            <span class="fw-semibold">BrandName</span>
+            <span class="text-secondary"> · © <span id="year">2025</span></span>
+          </div>
+          <div class="col-md-auto">
+            <ul class="nav justify-content-md-end">
+              <li class="nav-item"><a class="nav-link px-2 text-secondary" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link px-2 text-secondary" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link px-2 text-secondary" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+
